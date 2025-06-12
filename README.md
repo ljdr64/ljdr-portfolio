@@ -1,48 +1,52 @@
-# Astro Starter Kit: Basics
+# 💻 LJDR Portfolio
 
-```sh
-npm create astro@latest -- --template basics
+Este es mi portfolio personal desarrollado con **Astro** y **Tailwind CSS**, desplegado en **Vercel**. Incluye una presentación breve, proyectos destacados y formas de contacto.
+
+---
+
+## 🧠 Sobre mí
+
+Me gusta el ajedrez, aprender cosas nuevas y construir proyectos que mezclen lógica y diseño. Este portfolio es una forma de mostrar lo que sé hacer y en qué estoy trabajando.
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- ⚡ [Astro](https://astro.build/)
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
+- 🔧 Vanilla JS para interacciones (modo oscuro, scroll, etc.)
+
+---
+
+## 🧩 Funcionalidades
+
+- Modo claro / oscuro con toggle 🌙
+- Diseño 100% responsive
+- Botón para volver al inicio ⬆️
+- Navegación suave entre secciones
+- Footer con enlaces de contacto
+
+---
+
+## 🛠 Cómo ejecutarlo localmente
+
+Cloná el repositorio y ejecutá:
+
+```bash
+npm install
+npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Abrí http://localhost:4321 para ver el sitio localmente.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 📄 Licencia
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+Este proyecto es de uso personal y educativo. No está autorizado para fines comerciales sin consentimiento.
 
-## 🚀 Project Structure
+---
 
-Inside of your Astro project, you'll see the following folders and files:
+## 📬 Contacto
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+[![GitHub](https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ljdr64)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/laureano-rodriguez-0715b5210)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:laure.jd0101@gmail.com)
