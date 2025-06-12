@@ -26,14 +26,32 @@ import "../styles/global.css";
   >
     <button
       id="toggleThemeBtn"
-      class="fixed top-4 right-4 z-50 p-3 rounded-xl shadow-xl bg-white/80 dark:bg-black/70 backdrop-blur text-lg transition-all hover:scale-110 cursor-pointer"
+      class="fixed top-4 right-4 z-50 p-3 rounded-xl shadow-xl bg-white/80 dark:bg-black/70 backdrop-blur text-2xl transition-all hover:scale-110 cursor-pointer"
       aria-label="Toggle dark mode"
     >
       <span id="theme-icon">🌙</span>
     </button>
+    <a
+      href="#top"
+      id="scrollTopBtn"
+      class="fixed top-4 right-22 z-50 p-3 rounded-xl shadow-xl bg-white/80 dark:bg-black/70 backdrop-blur text-2xl transition-all hover:scale-110 cursor-pointer hidden"
+      aria-label="Volver arriba"
+    >
+      ⬆️
+    </a>
 
     <slot />
+    <script is:inline>
+      const scrollTopBtn = document.getElementById("scrollTopBtn");
 
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 0) {
+          scrollTopBtn.classList.remove("hidden");
+        } else {
+          scrollTopBtn.classList.add("hidden");
+        }
+      });
+    </script>
     <script src="./toggle-theme.js" defer></script>
   </body>
 </html>
