@@ -2,16 +2,39 @@
 import "../styles/global.css";
 ---
 
-<html lang="en">
+<html lang="en" id="htmlRoot">
   <head>
+    <script>
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro Basics</title>
+    <title>LJDR-Portfolio</title>
   </head>
-  <body>
+  <body
+    class="bg-white text-black dark:bg-gray-900 dark:text-white transition-colors duration-300"
+  >
+    <button
+      id="toggleThemeBtn"
+      class="fixed top-4 right-4 z-50 p-3 rounded-xl shadow-xl bg-white/80 dark:bg-black/70 backdrop-blur text-lg transition-all hover:scale-110 cursor-pointer"
+      aria-label="Toggle dark mode"
+    >
+      <span id="theme-icon">🌙</span>
+    </button>
+
     <slot />
+
+    <script src="./toggle-theme.js" defer></script>
   </body>
 </html>
 
