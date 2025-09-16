@@ -3,10 +3,7 @@
   href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
 />
 
-<div
-  id="container"
-  class="min-w-[320px] max-w-[900px] m-auto py-22 sm:py-8 sm:px-8"
->
+<main id="container" class="min-w-[320px] max-w-[900px] m-auto py-20 sm:px-8">
   <img
     src="/images/bg-futuristic.jpg"
     class="fixed top-0 left-0 w-full h-screen object-cover -z-10 dark:hidden"
@@ -16,551 +13,514 @@
     src="/images/bg-cyberpunk.jpg"
     class="fixed top-0 left-0 w-full h-screen object-cover -z-10 hidden dark:block"
   />
-  <main>
-    <section
-      id="hero"
-      class="min-h-[80vh] rounded-xl shadow-md flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-blue-200 to-blue-50 dark:from-black dark:to-gray-600"
+
+  <section
+    id="hero"
+    class="scroll-mt-20 min-h-[80vh] rounded-xl shadow-md flex flex-col justify-center items-center text-center px-6 bg-gradient-to-b from-blue-200 to-blue-50 dark:from-black dark:to-gray-600"
+  >
+    <h1
+      class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight"
     >
-      <h1
-        class="text-4xl sm:text-5xl font-extrabold text-gray-900 dark:text-white leading-tight"
-      >
-        Laureano <span class="text-blue-600 dark:text-blue-300">Rodriguez</span>
-      </h1>
+      Laureano <span class="text-blue-600 dark:text-blue-300">Rodriguez</span>
+    </h1>
 
-      <p class="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-6">
-        Desarrollador Full Stack
-      </p>
+    <p class="text-lg sm:text-xl text-gray-600 dark:text-gray-300 mb-6">
+      Desarrollador Full Stack
+    </p>
 
-      <p
-        class="text-lg sm:text-xl text-gray-700 dark:text-gray-200 max-w-2xl mb-6 text-justify"
-      >
-        Especializado en <strong class="text-blue-600 dark:text-blue-300"
-          >React.js</strong
-        >, <strong class="text-blue-600 dark:text-blue-300">TypeScript</strong> y
-        <strong class="text-blue-600 dark:text-blue-300">Node.js</strong>. Me
-        apasiona construir aplicaciones modernas, interfaces dinámicas y
-        proyectos interactivos como <strong>LJDR-Chess</strong>.
-      </p>
-
-      <div class="flex gap-4 justify-center mb-8">
-        <a
-          href="#projects"
-          class="px-6 py-3 bg-blue-600 dark:bg-blue-300 text-white dark:text-black font-semibold rounded-lg shadow-md hover:bg-blue-700 hover:dark:bg-blue-400 transition"
-        >
-          Proyectos
-        </a>
-        <a
-          href="#contact"
-          class="px-6 py-3 border border-blue-600 dark:border-blue-300 text-blue-600 dark:text-blue-300 font-semibold rounded-lg hover:bg-blue-200 dark:hover:bg-white/10 transition"
-        >
-          Contacto
-        </a>
-      </div>
-
-      <div class="flex gap-6 justify-center">
-        <a href="https://github.com/ljdr64" target="_blank" aria-label="GitHub">
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-            class="dark:invert"
-            width="40"
-            height="40"
-            alt="GitHub"
-          />
-        </a>
-        <a
-          href="https://linkedin.com/in/laureano-rodriguez-0715b5210"
-          target="_blank"
-          aria-label="LinkedIn"
-        >
-          <img
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
-            width="40"
-            height="40"
-            alt="LinkedIn"
-          />
-        </a>
-      </div>
-    </section>
-
-    <section
-      id="projects"
-      class="mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
+    <p
+      class="text-lg sm:text-xl text-gray-700 dark:text-gray-200 max-w-2xl mb-6 text-justify"
     >
-      <h2 class="text-3xl font-bold text-center mb-10">
-        🧩 Proyectos destacados
-      </h2>
-      <div class="flex flex-col gap-6 sm:px-6 max-w-4xl mx-auto">
-        <article
-          class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
-        >
-          <div class="p-6 space-y-2">
-            <h3
-              class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
-            >
-              LJDR-Chess-React
-            </h3>
-            <p class="text-gray-600 dark:text-white">
-              Tablero de ajedrez interactivo desarrollado con <strong
-                >React</strong
-              >, <strong>Vite</strong> y <strong>Tailwind</strong>, que permite
-              mover piezas con drag & drop, visualizar el <strong>FEN</strong> de
-              la posición actual y obtener el <strong>PGN</strong> de toda la partida.
-              Toda la lógica de juego y anotación fue implementada completamente
-              desde cero, incluyendo detección de movimientos legales, promoción
-              y control del turno.
-            </p>
-            <img
-              src="./images/ljdr-chess-react.jpg"
-              alt="LJDR-Chess"
-              class="w-full object-cover"
-            />
-            <span class="inline-block text-sm text-gray-500 dark:text-white">
-              React · Vite · Tailwind
-            </span>
-            <div class="flex gap-4 mt-4">
-              <a
-                href="https://ljdr-chess-react.vercel.app/"
-                class="hover:duration-300 hover:scale-120 transform"
-                target="_blank"><span class="text-2xl">🚀</span></a
-              >
-              <a
-                href="https://github.com/ljdr64/ljdr-chess-react"
-                class="hover:duration-300 hover:scale-120 transform"
-                target="_blank"
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  class="dark:invert"
-                  width="32"
-                  height="32"
-                  title="GitHub"
-                /></a
-              >
-            </div>
-          </div>
-        </article>
+      Especializado en <strong class="text-blue-600 dark:text-blue-300"
+        >React.js</strong
+      >, <strong class="text-blue-600 dark:text-blue-300">TypeScript</strong> y
+      <strong class="text-blue-600 dark:text-blue-300">Node.js</strong>. Me
+      apasiona construir aplicaciones modernas, interfaces dinámicas y proyectos
+      interactivos como <strong>LJDR-Chess</strong>.
+    </p>
 
-        <article
-          class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
-        >
-          <div class="p-6 space-y-2">
-            <h3
-              class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
-            >
-              LJDR-Store
-            </h3>
-            <p class="text-gray-600 dark:text-white">
-              E-commerce desarrollado desde cero utilizando <strong>Vite</strong
-              > y <strong>React</strong>. El proyecto incluye una arquitectura
-              moderna, componentes reutilizables y una interfaz responsiva
-              construida con <strong>Tailwind CSS</strong>. Permite explorar
-              productos, gestionar un carrito de compras y simular el flujo
-              completo de compra.
-            </p>
-            <img
-              src="./images/ljdr-store.png"
-              alt="LJDR-Store"
-              class="w-full object-cover"
-            />
-            <span class="inline-block text-sm text-gray-500 dark:text-white">
-              React · Vite · Tailwind CSS
-            </span>
-            <div class="flex gap-4 mt-4">
-              <a
-                href="https://mystore-react-vite.vercel.app/"
-                class="hover:duration-300 hover:scale-120 transform"
-                target="_blank"><span class="text-2xl">🚀</span></a
-              >
-              <a
-                href="https://github.com/ljdr64/mystore-react-vite"
-                class="hover:duration-300 hover:scale-120 transform"
-                target="_blank"
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  class="dark:invert"
-                  width="32"
-                  height="32"
-                  title="GitHub"
-                /></a
-              >
-            </div>
-          </div>
-        </article>
+    <div class="flex gap-4 justify-center mb-8">
+      <a
+        href="#projects"
+        class="px-6 py-3 bg-blue-600 dark:bg-blue-300 text-white dark:text-black font-semibold rounded-lg shadow-md hover:bg-blue-700 hover:dark:bg-blue-400 transition"
+      >
+        Proyectos
+      </a>
+      <a
+        href="#contact"
+        class="px-6 py-3 border border-blue-600 dark:border-blue-300 text-blue-600 dark:text-blue-300 font-semibold rounded-lg hover:bg-blue-200 dark:hover:bg-white/10 transition"
+      >
+        Contacto
+      </a>
+    </div>
 
-        <article
-          class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
-        >
-          <div class="p-6 space-y-2">
-            <h3
-              class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
+    <div class="flex gap-6 justify-center">
+      <a href="https://github.com/ljdr64" target="_blank" aria-label="GitHub">
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+          class="dark:invert"
+          width="40"
+          height="40"
+          alt="GitHub"
+        />
+      </a>
+      <a
+        href="https://linkedin.com/in/laureano-rodriguez-0715b5210"
+        target="_blank"
+        aria-label="LinkedIn"
+      >
+        <img
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
+          width="40"
+          height="40"
+          alt="LinkedIn"
+        />
+      </a>
+    </div>
+  </section>
+
+  <section
+    id="projects"
+    class="scroll-mt-20 mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
+  >
+    <h2 class="text-3xl font-bold text-center mb-10">
+      🧩 Proyectos destacados
+    </h2>
+    <div class="flex flex-col gap-6 sm:px-6 max-w-4xl mx-auto">
+      <article
+        class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
+      >
+        <div class="p-6 space-y-2">
+          <h3
+            class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
+          >
+            LJDR-Chess-React
+          </h3>
+          <p class="text-gray-600 dark:text-white">
+            Tablero de ajedrez interactivo desarrollado con <strong
+              >React</strong
+            >, <strong>Vite</strong> y <strong>Tailwind</strong>, que permite
+            mover piezas con drag & drop, visualizar el <strong>FEN</strong> de la
+            posición actual y obtener el <strong>PGN</strong> de toda la partida.
+            Toda la lógica de juego y anotación fue implementada completamente desde
+            cero, incluyendo detección de movimientos legales, promoción y control
+            del turno.
+          </p>
+          <img
+            src="./images/ljdr-chess-react.jpg"
+            alt="LJDR-Chess"
+            class="w-full object-cover"
+          />
+          <span class="inline-block text-sm text-gray-500 dark:text-white">
+            React · Vite · Tailwind
+          </span>
+          <div class="flex gap-4 mt-4">
+            <a
+              href="https://ljdr-chess-react.vercel.app/"
+              class="hover:duration-300 hover:scale-120 transform"
+              target="_blank"><span class="text-2xl">🚀</span></a
             >
-              <h3
-                class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
-              >
-                Pokeinfo-API
-              </h3>
-              <p class="text-gray-600 dark:text-white">
-                API REST desarrollada con <strong>Node.js</strong>, <strong
-                  >Express</strong
-                > y <strong>PostgreSQL</strong> utilizando <strong
-                  >Sequelize</strong
-                > como ORM. Incluye frontend básico en HTML, CSS y JS puro para consultar
-                datos de Pokémon.
-              </p>
+            <a
+              href="https://github.com/ljdr64/ljdr-chess-react"
+              class="hover:duration-300 hover:scale-120 transform"
+              target="_blank"
+            >
               <img
-                src="./images/pokeinfo-api.png"
-                alt="Pokeinfo-API"
-                class="w-full object-cover"
-              />
-              <span class="inline-block text-sm text-gray-500 dark:text-white">
-                Node.js · Express · PostgreSQL · Sequelize
-              </span>
-              <div class="flex gap-4 mt-4">
-                <a
-                  href="https://pokemon-api-opal.vercel.app/"
-                  class="hover:duration-300 hover:scale-120 transform"
-                  target="_blank"><span class="text-2xl">🚀</span></a
-                >
-                <a
-                  href="https://github.com/ljdr64/pokemon-api"
-                  class="hover:duration-300 hover:scale-120 transform"
-                  target="_blank"
-                >
-                  <img
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                    class="dark:invert"
-                    width="32"
-                    height="32"
-                    title="GitHub"
-                  /></a
-                >
-              </div>
-            </h3>
-          </div>
-        </article>
-
-        <article
-          class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
-        >
-          <div class="p-6 space-y-2">
-            <h3
-              class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                class="dark:invert"
+                width="32"
+                height="32"
+                title="GitHub"
+              /></a
             >
-              Pokeinfo-Dex
-            </h3>
-            <p class="text-gray-600 dark:text-white">
-              Aplicación hecha en <strong>React</strong>, <strong>Vite</strong> y
-              <strong>Tailwind</strong> que permite buscar Pokémon por nombre o número
-              de PokeDex. También ofrece la posibilidad de cambiar el tipo de imagen
-              en todas las tarjetas de forma dinámica.
-            </p>
-            <img
-              src="./images/pokeinfo-dex.png"
-              alt="Pokeinfo-Dex"
-              class="w-full object-cover"
-            />
-            <span class="inline-block text-sm text-gray-500 dark:text-white">
-              React · Vite · Tailwind
-            </span>
-            <div class="flex gap-4 mt-4">
-              <a
-                href="https://pokedex-react-gilt.vercel.app/"
-                class="hover:duration-300 hover:scale-120 transform"
-                target="_blank"
-              >
-                <span class="text-2xl">🚀</span></a
-              >
-              <a
-                href="https://github.com/ljdr64/pokedex-react"
-                class="hover:duration-300 hover:scale-120 transform"
-                target="_blank"
-              >
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  class="dark:invert"
-                  width="32"
-                  height="32"
-                  title="GitHub"
-                /></a
-              >
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section
-      id="skills"
-      class="mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
-    >
-      <h2 class="text-2xl font-bold text-center mb-6">🛠️ Stack</h2>
-      <div class="flex flex-wrap justify-center gap-4 px-6">
-        <div class="flex gap-4 text-5xl flex-wrap justify-center">
-          <!-- JavaScript -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-              class="cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(247,223,30,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(247,223,30,0.9)]"
-              width="50"
-              height="50"
-              title="JavaScript"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">JavaScript</span
-            >
-          </div>
-
-          <!-- TypeScript -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-              class="cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,122,204,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(0,122,204,0.9)]"
-              width="50"
-              height="50"
-              title="TypeScript"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">TypeScript</span
-            >
-          </div>
-
-          <!-- React -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
-              class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(97,218,251,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(97,218,251,0.9)]"
-              width="50"
-              height="50"
-              title="React"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">React</span>
-          </div>
-
-          <!-- Next.js -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
-              class="p-0.25 dark:invert cursor-pointer rounded-md duration-100 transition-shadow hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.5)]"
-              width="50"
-              height="50"
-              title="Next.js"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">Next.js</span>
-          </div>
-
-          <!-- Vite -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
-              class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(255,215,0,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(255,215,0,0.9)]"
-              width="50"
-              height="50"
-              title="Vite"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">Vite</span>
-          </div>
-
-          <!-- Astro -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-plain.svg"
-              class="p-0.25 dark:invert cursor-pointer rounded-md duration-100 transition-shadow hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.5)]"
-              width="50"
-              height="50"
-              title="Astro"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">Astro</span>
-          </div>
-
-          <!-- Tailwind CSS -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
-              class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(56,189,248,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(56,189,248,0.9)]"
-              width="50"
-              height="50"
-              title="Tailwind CSS"
-            />
-            <span class="text-xs text-gray-700 dark:text-white"
-              >TailwindCSS</span
-            >
-          </div>
-
-          <!-- Node.js -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
-              class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(112,168,100,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(112,168,100,0.9)]"
-              width="50"
-              height="50"
-              title="Node.js"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">Node.js</span>
-          </div>
-
-          <!-- NestJS -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"
-              class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(204,51,63,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(204,51,63,0.9)]"
-              width="50"
-              height="50"
-              title="NestJS"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">NestJS</span>
-          </div>
-
-          <!-- Express -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
-              class="p-0.25 dark:invert cursor-pointer rounded-md transition-shadow duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.5)]"
-              width="50"
-              height="50"
-              title="Express"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">Express</span>
-          </div>
-
-          <!-- PostgreSQL -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
-              class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(49,108,176,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(49,108,176,0.9)]"
-              width="50"
-              height="50"
-              title="PostgreSQL"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">PostgreSQL</span
-            >
-          </div>
-
-          <!-- MongoDB -->
-          <div class="flex flex-col items-center space-y-1">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
-              class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(34,197,94,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(34,197,94,0.9)]"
-              width="50"
-              height="50"
-              title="MongoDB"
-            />
-            <span class="text-xs text-gray-700 dark:text-white">MongoDB</span>
           </div>
         </div>
-      </div>
-    </section>
+      </article>
 
-    <section
-      id="about"
-      class="mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
-    >
-      <h2 class="text-2xl font-bold text-center mb-6">🙋 Sobre mí</h2>
-      <div
-        class="max-w-2xl mx-auto px-6 text-justify text-gray-700 dark:text-white text-lg leading-relaxed"
+      <article
+        class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
       >
-        Soy <strong>Desarrollador Full Stack</strong> especializado en el ecosistema
-        <strong>JavaScript</strong>, apasionado por el ajedrez, la lógica y la
-        creación de interfaces limpias y funcionales. Disfruto aprender cosas
-        nuevas y desarrollar proyectos que combinan diseño, usabilidad y
-        rendimiento. Trabajo con tecnologías como <strong
-          >React, Astro, Vite y Node.js</strong
-        >
-        para construir aplicaciones completas y eficientes.
-        <br /><br />
-        Tengo formación académica como <strong
-          >Bachiller Universitario con Mención en Matemáticas</strong
-        > (UNR, 2022), lo que refuerza mi enfoque lógico y estructurado al programar.
-      </div>
-    </section>
-
-    <section
-      id="experience"
-      class="mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
-    >
-      <h2 class="text-2xl font-bold text-center mb-6">💼 Experiencia</h2>
-      <div
-        class="max-w-3xl mx-auto space-y-4 px-6 text-gray-700 dark:text-white"
-      >
-        <p>
-          <strong class="text-blue-600 dark:text-blue-300"
-            >Freelance (2022 - Actualidad):</strong
-          > Desarrollo de frontends interactivos y lógica de juego para proyectos
-          personales y colaborativos.
-        </p>
-        <p>
-          <strong class="text-blue-600 dark:text-blue-300">Platzi:</strong>
-          Cursos completados que abarcan desarrollo backend y frontend:
-          <ul class="list-disc list-inside mt-2">
-            <li>
-              Curso de NestJS: Programación Modular, Documentación con Swagger y
-              Deploy
-            </li>
-            <li>Curso de Backend con NestJS</li>
-            <li>Curso de Backend con Node.js: API REST con Express.js</li>
-            <li>Curso de Backend con Node.js: Base de Datos con PostgreSQL</li>
-            <li>
-              Curso de Backend con Node.js: Autenticación con Passport.js y JWT
-            </li>
-            <li>Curso de React.js con Vite.js y TailwindCSS</li>
-            <li>Curso de React.js</li>
-            <li>Prueba Técnica: E-commerce Profesional con React.js</li>
-            <li>Curso de Asincronismo con JavaScript</li>
-            <li>Curso de Responsive Design: Maquetación Mobile First</li>
-            <li>Curso de Manipulación del DOM</li>
-          </ul>
-        </p>
-        <p>
-          <strong class="text-blue-600 dark:text-blue-300">freeCodeCamp:</strong
+        <div class="p-6 space-y-2">
+          <h3
+            class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
           >
-          <ul class="list-disc list-inside mt-2">
-            <li>JavaScript Algorithms and Data Structures</li>
-          </ul>
-        </p>
-      </div>
-    </section>
+            LJDR-Store
+          </h3>
+          <p class="text-gray-600 dark:text-white">
+            E-commerce desarrollado desde cero utilizando <strong>Vite</strong> y
+            <strong>React</strong>. El proyecto incluye una arquitectura
+            moderna, componentes reutilizables y una interfaz responsiva
+            construida con <strong>Tailwind CSS</strong>. Permite explorar
+            productos, gestionar un carrito de compras y simular el flujo
+            completo de compra.
+          </p>
+          <img
+            src="./images/ljdr-store.png"
+            alt="LJDR-Store"
+            class="w-full object-cover"
+          />
+          <span class="inline-block text-sm text-gray-500 dark:text-white">
+            React · Vite · Tailwind CSS
+          </span>
+          <div class="flex gap-4 mt-4">
+            <a
+              href="https://mystore-react-vite.vercel.app/"
+              class="hover:duration-300 hover:scale-120 transform"
+              target="_blank"><span class="text-2xl">🚀</span></a
+            >
+            <a
+              href="https://github.com/ljdr64/mystore-react-vite"
+              class="hover:duration-300 hover:scale-120 transform"
+              target="_blank"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                class="dark:invert"
+                width="32"
+                height="32"
+                title="GitHub"
+              /></a
+            >
+          </div>
+        </div>
+      </article>
 
-    <section
-      id="contact"
-      class="mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
+      <article
+        class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
+      >
+        <div class="p-6 space-y-2">
+          <h3
+            class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
+          >
+            <h3
+              class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
+            >
+              Pokeinfo-API
+            </h3>
+            <p class="text-gray-600 dark:text-white">
+              API REST desarrollada con <strong>Node.js</strong>, <strong
+                >Express</strong
+              > y <strong>PostgreSQL</strong> utilizando <strong
+                >Sequelize</strong
+              > como ORM. Incluye frontend básico en HTML, CSS y JS puro para consultar
+              datos de Pokémon.
+            </p>
+            <img
+              src="./images/pokeinfo-api.png"
+              alt="Pokeinfo-API"
+              class="w-full object-cover"
+            />
+            <span class="inline-block text-sm text-gray-500 dark:text-white">
+              Node.js · Express · PostgreSQL · Sequelize
+            </span>
+            <div class="flex gap-4 mt-4">
+              <a
+                href="https://pokemon-api-opal.vercel.app/"
+                class="hover:duration-300 hover:scale-120 transform"
+                target="_blank"><span class="text-2xl">🚀</span></a
+              >
+              <a
+                href="https://github.com/ljdr64/pokemon-api"
+                class="hover:duration-300 hover:scale-120 transform"
+                target="_blank"
+              >
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  class="dark:invert"
+                  width="32"
+                  height="32"
+                  title="GitHub"
+                /></a
+              >
+            </div>
+          </h3>
+        </div>
+      </article>
+
+      <article
+        class="bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md dark:shadow-white/20 hover:shadow-xl dark:hover:shadow-white/20 transition-shadow duration-300 sm:hover:scale-102 transform overflow-hidden cursor-pointer"
+      >
+        <div class="p-6 space-y-2">
+          <h3
+            class="text-2xl font-semibold text-gray-800 dark:text-white hover:text-blue-600 hover:dark:text-blue-300 transition-colors"
+          >
+            Pokeinfo-Dex
+          </h3>
+          <p class="text-gray-600 dark:text-white">
+            Aplicación hecha en <strong>React</strong>, <strong>Vite</strong> y
+            <strong>Tailwind</strong> que permite buscar Pokémon por nombre o número
+            de PokeDex. También ofrece la posibilidad de cambiar el tipo de imagen
+            en todas las tarjetas de forma dinámica.
+          </p>
+          <img
+            src="./images/pokeinfo-dex.png"
+            alt="Pokeinfo-Dex"
+            class="w-full object-cover"
+          />
+          <span class="inline-block text-sm text-gray-500 dark:text-white">
+            React · Vite · Tailwind
+          </span>
+          <div class="flex gap-4 mt-4">
+            <a
+              href="https://pokedex-react-gilt.vercel.app/"
+              class="hover:duration-300 hover:scale-120 transform"
+              target="_blank"
+            >
+              <span class="text-2xl">🚀</span></a
+            >
+            <a
+              href="https://github.com/ljdr64/pokedex-react"
+              class="hover:duration-300 hover:scale-120 transform"
+              target="_blank"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                class="dark:invert"
+                width="32"
+                height="32"
+                title="GitHub"
+              /></a
+            >
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section
+    id="skills"
+    class="scroll-mt-20 mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
+  >
+    <h2 class="text-2xl font-bold text-center mb-6">🛠️ Stack</h2>
+    <div class="flex flex-wrap justify-center gap-4 px-6">
+      <div class="flex gap-4 text-5xl flex-wrap justify-center">
+        <!-- JavaScript -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+            class="cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(247,223,30,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(247,223,30,0.9)]"
+            width="50"
+            height="50"
+            title="JavaScript"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">JavaScript</span>
+        </div>
+
+        <!-- TypeScript -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+            class="cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,122,204,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(0,122,204,0.9)]"
+            width="50"
+            height="50"
+            title="TypeScript"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">TypeScript</span>
+        </div>
+
+        <!-- React -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(97,218,251,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(97,218,251,0.9)]"
+            width="50"
+            height="50"
+            title="React"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">React</span>
+        </div>
+
+        <!-- Next.js -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg"
+            class="p-0.25 dark:invert cursor-pointer rounded-md duration-100 transition-shadow hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.5)]"
+            width="50"
+            height="50"
+            title="Next.js"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">Next.js</span>
+        </div>
+
+        <!-- Vite -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg"
+            class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(255,215,0,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(255,215,0,0.9)]"
+            width="50"
+            height="50"
+            title="Vite"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">Vite</span>
+        </div>
+
+        <!-- Astro -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/astro/astro-plain.svg"
+            class="p-0.25 dark:invert cursor-pointer rounded-md duration-100 transition-shadow hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.5)]"
+            width="50"
+            height="50"
+            title="Astro"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">Astro</span>
+        </div>
+
+        <!-- Tailwind CSS -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+            class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(56,189,248,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(56,189,248,0.9)]"
+            width="50"
+            height="50"
+            title="Tailwind CSS"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">TailwindCSS</span>
+        </div>
+
+        <!-- Node.js -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+            class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(112,168,100,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(112,168,100,0.9)]"
+            width="50"
+            height="50"
+            title="Node.js"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">Node.js</span>
+        </div>
+
+        <!-- NestJS -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg"
+            class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(204,51,63,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(204,51,63,0.9)]"
+            width="50"
+            height="50"
+            title="NestJS"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">NestJS</span>
+        </div>
+
+        <!-- Express -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg"
+            class="p-0.25 dark:invert cursor-pointer rounded-md transition-shadow duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.4)] dark:hover:shadow-[0_0_15px_3px_rgba(0,0,0,0.5)]"
+            width="50"
+            height="50"
+            title="Express"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">Express</span>
+        </div>
+
+        <!-- PostgreSQL -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg"
+            class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(49,108,176,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(49,108,176,0.9)]"
+            width="50"
+            height="50"
+            title="PostgreSQL"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">PostgreSQL</span>
+        </div>
+
+        <!-- MongoDB -->
+        <div class="flex flex-col items-center space-y-1">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
+            class="p-0.25 cursor-pointer rounded-md transition duration-100 transform hover:scale-110 hover:shadow-[0_0_15px_3px_rgba(34,197,94,0.8)] dark:hover:shadow-[0_0_15px_3px_rgba(34,197,94,0.9)]"
+            width="50"
+            height="50"
+            title="MongoDB"
+          />
+          <span class="text-xs text-gray-700 dark:text-white">MongoDB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section
+    id="about"
+    class="scroll-mt-20 mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
+  >
+    <h2 class="text-2xl font-bold text-center mb-6">🙋 Sobre mí</h2>
+    <div
+      class="max-w-2xl mx-auto px-6 text-justify text-gray-700 dark:text-white text-lg leading-relaxed"
     >
-      <h2 class="text-2xl font-bold text-center mb-6">📬 Contacto</h2>
-      <p class="text-gray-700 dark:text-white text-lg px-6 text-justify">
-        Si querés contactarme por oportunidades laborales, colaboración en
-        proyectos o consultas profesionales, podés escribirme directamente a <a
-          href="mailto:laure.jd0101@gmail.com"
-          class="text-2xl">📩</a
-        >
+      Soy <strong>Desarrollador Full Stack</strong> especializado en el ecosistema
+      <strong>JavaScript</strong>, apasionado por el ajedrez, la lógica y la
+      creación de interfaces limpias y funcionales. Disfruto aprender cosas
+      nuevas y desarrollar proyectos que combinan diseño, usabilidad y
+      rendimiento. Trabajo con tecnologías como <strong
+        >React, Astro, Vite y Node.js</strong
+      >
+      para construir aplicaciones completas y eficientes.
+      <br /><br />
+      Tengo formación académica como <strong
+        >Bachiller Universitario con Mención en Matemáticas</strong
+      > (UNR, 2022), lo que refuerza mi enfoque lógico y estructurado al programar.
+    </div>
+  </section>
+
+  <section
+    id="experience"
+    class="scroll-mt-20 mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
+  >
+    <h2 class="text-2xl font-bold text-center mb-6">💼 Experiencia</h2>
+    <div class="max-w-3xl mx-auto space-y-4 px-6 text-gray-700 dark:text-white">
+      <p>
+        <strong class="text-blue-600 dark:text-blue-300"
+          >Freelance (2022 - Actualidad):</strong
+        > Desarrollo de frontends interactivos y lógica de juego para proyectos personales
+        y colaborativos.
       </p>
-    </section>
-  </main>
-</div>
-<footer
-  class="min-w-[320px] p-2 text-center text-sm bg-white dark:bg-gray-900 text-gray-600 dark:text-gray-400"
->
-  <div class="flex justify-center gap-2 sm:gap-4">
-    <p>© 2025 Laureano Rodriguez</p>
-    <a href="https://github.com/ljdr64" target="_blank">
-      <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-        class="dark:invert"
-        width="20"
-        height="20"
-        title="GitHub"
-      />
-    </a>
-    <a
-      href="https://linkedin.com/in/laureano-rodriguez-0715b5210"
-      target="_blank"
-      class=""
-    >
-      <img
-        src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
-        width="20"
-        height="20"
-        title="LinkedIn"
-      />
-    </a>
-  </div>
-</footer>
+      <p>
+        <strong class="text-blue-600 dark:text-blue-300">Platzi:</strong>
+        Cursos completados que abarcan desarrollo backend y frontend:
+        <ul class="list-disc list-inside mt-2">
+          <li>
+            Curso de NestJS: Programación Modular, Documentación con Swagger y
+            Deploy
+          </li>
+          <li>Curso de Backend con NestJS</li>
+          <li>Curso de Backend con Node.js: API REST con Express.js</li>
+          <li>Curso de Backend con Node.js: Base de Datos con PostgreSQL</li>
+          <li>
+            Curso de Backend con Node.js: Autenticación con Passport.js y JWT
+          </li>
+          <li>Curso de React.js con Vite.js y TailwindCSS</li>
+          <li>Curso de React.js</li>
+          <li>Prueba Técnica: E-commerce Profesional con React.js</li>
+          <li>Curso de Asincronismo con JavaScript</li>
+          <li>Curso de Responsive Design: Maquetación Mobile First</li>
+          <li>Curso de Manipulación del DOM</li>
+        </ul>
+      </p>
+      <p>
+        <strong class="text-blue-600 dark:text-blue-300">freeCodeCamp:</strong>
+        <ul class="list-disc list-inside mt-2">
+          <li>JavaScript Algorithms and Data Structures</li>
+        </ul>
+      </p>
+    </div>
+  </section>
+
+  <section
+    id="contact"
+    class="scroll-mt-20 mb-8 sm:px-8 py-8 bg-gray-50 dark:bg-gray-900 dark:text-white rounded-xl shadow-md"
+  >
+    <h2 class="text-2xl font-bold text-center mb-6">📬 Contacto</h2>
+    <p class="text-gray-700 dark:text-white text-lg px-6 text-justify">
+      Si querés contactarme por oportunidades laborales, colaboración en
+      proyectos o consultas profesionales, podés escribirme directamente a <a
+        href="mailto:laure.jd0101@gmail.com"
+        class="text-2xl">📩</a
+      >
+    </p>
+  </section>
+</main>
 
 <style>
   body {
